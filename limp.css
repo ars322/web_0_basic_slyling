@@ -1,0 +1,291 @@
+body {
+    background: #efefef url(images/square.png);
+    margin: 0;
+    padding: 0;
+    font: 16px/24px Arial, Tahoma, Sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Структура сайта*/
+
+div.header {
+    background: #121822;
+    height: 65px;
+    border-bottom: 5px solid #fd0000;
+}
+
+
+/*Шапка сайта*/
+
+div.name {
+    font-size: 42px;
+    font-weight: 700;
+    float: left;
+    height: 50px;
+    line-height: 70px;
+    color: #ffffff;
+    text-shadow: 5px 5px 3px #061526;
+}
+
+div.name a {
+    color: white;
+    
+}
+
+div.name a:hover {
+    font-size: 50px;
+}
+
+div.topmenu {
+    float: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+div.topmenu a {
+    margin: 0 0 0 10px;
+    color: #a1e3f7;
+    padding-right: 10px;
+}
+
+div.topmenu a:hover {
+    color: white;
+    fontsize: 22px;
+    border-bottom: 3px solid #a1e3f7;
+    
+}
+
+div.logo {}
+
+
+/*Главное меню*/
+
+div.menu {
+    background: #121822;
+    border: 2px solid #001dff;
+    border-left: none;
+    border-right: none;
+    margin-top: -7px;
+}
+
+div.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+div.menu ul li {
+    display: inline-block;
+    margin: 5px 50px;
+}
+
+div.menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #0b4455;
+    font-size: 22px;
+    target: "_parent";
+}
+
+div.menu ul li a:hover {
+    color: #fd0000;
+    text-shadow: 0px 2px 3px #354043;
+}
+
+
+/*Контент сайта*/
+
+div.content {}
+
+div.fon {
+    background: #061526;
+    border: 5px solid #efefef;
+    border-bottom: none;
+    border-top: none;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    color: white;
+}
+
+div.text h1 {
+    color: white;
+    margin-bottom: 50px;
+    font-size: 62px;
+    text-shadow: 2px 3px 1px #0010d4;
+    
+}
+
+div.fon h1 {
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-size: 62px;
+    text-shadow: 2px 3px 1px #0010d4;
+   
+}
+
+div.text p {
+    text-align: left;
+    text-indent: 40px;
+    font-size: 20px;
+    line-height: 150%
+}
+
+.f {
+    color: white;
+    background: #121822;
+    border-top: 2px solid;
+    padding: 20px;
+    margin-bottom: -20px;
+    font-size: 20px;
+    text-align: right;
+}
+
+div.sos ul {
+    margin: 22px;
+    padding-left: 100px;
+}
+
+div.sos ul li {
+    text-align: left;
+    padding: 15px;
+    font-size: 26px;
+}
+
+div.sos ul li a {
+    color: #a1e3f7;
+    font-weight: 500;
+}
+
+div.sos ul li a:hover {
+    color: white;
+    border-bottom: 2px dotted #a1e3f7;
+}
+
+div.sostav {
+    text-align: left;
+    margin-top: 200px;
+}
+
+div.sostav img {
+    width: 200px;
+    height: 300px;
+}
+
+#border {
+    border-top: 5px solid #fd0000;
+   
+}
+
+div.sostav table {
+    margin: 0px;
+    
+    width: 100%;
+}
+
+div.sostav table th {
+    text-align: left;
+    font-size: 30px;
+    padding-left: 30px;
+    width: 250px;
+    font-weight: 500;
+    color: white;
+}
+::-webkit-scrollbar {
+
+width: 0px;
+
+}
+div.sostav table td{
+    text-align: left;
+    text-indent: 40px;
+    font-size: 22px;
+    line-height: 150%
+}
+.disk ul{
+    list-style: none;
+}
+.album{
+    font-weight: 600;
+    font-size: 32px;
+    color: rgb(244, 134, 7);
+    margin-top: 50px;
+    
+    
+}
+.disk ol{
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    line-height: 150%
+}
+.first{
+    padding-top: 50px;
+}
+.photo{
+    float: right;
+    width: 300px;
+    margin: 50px;
+}
+.last{
+    font-weight: 600;
+    font-size: 28px;
+    color: rgb(244, 134, 7);
+    margin-top: 120px;
+    
+    
+}
+.album a{
+    color: white;
+    text-shadow: 0px 0px 3px rgba(253, 0, 0, 0.42);
+    
+}
+.album a:hover{
+    color: #45d366;
+    text-shadow: 0px 0px 0px;
+    border-bottom: 2px dotted #fd0000;
+    font-weight: 700;
+}
+.last a{
+    color: white;
+    text-shadow: 0px 0px 3px rgba(253, 0, 0, 0.42);
+}
+.last a:hover{
+    color: #45d366;
+    text-shadow: 0px 0px 0px;
+    border-bottom: 2px dotted #fd0000;
+    font-weight: 700;
+}
+#gif{
+    width: 100%;
+    margin-bottom: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+body {
+    background: #efefef url(images/geometry2.png);
+    margin: 0;
+    padding: 0;
+    font: 16px/24px Arial, Tahoma, Sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*Структура сайта*/
+
+div.mid {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+div.header {
+    background: #1a1a2a
+}
+
+
+/*Шапка сайта*/
+
+div.topmenu {
+    float: right;
+    height: 70px;
+    line-height: 70px;
+}
+
+div.topmenu a {
+    margin: 0 0 0 10px;
+    color: #1683a3;
+}
+
+div.topmenu a:hover {
+    color: white;
+}
+
+div.afisha {
+    padding: 20px 50px 0 50px;
+    background: #f2f2f2 url(images/headline.png) top repeat-x;
+}
+
+div.afisha img {
+    float: left;
+}
+
+div.afisha h3 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: #830000;
+}
+
+div.afisha p {
+    text-align: center;
+    
+}
+
+div.afisha a {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #b23600;
+    border: 1px solid #862900;
+    padding: 5px 15px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px -1px #777777;
+    text-shadow: 0px 0px 3px #983d14;
+}
+
+div.afisha a:hover {
+    background: #068bac;
+    border: 1 px solid #046d88;
+    text-shadow: 0px 0px 3px #140702;
+}
+
+
+/*Главное меню*/
+
+div.menu {
+    background: #1683a3;
+    border: 1px solid #016c8b;
+    border-left: none;
+    border-right: none;
+}
+
+div.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+div.menu ul li {
+    display: inline-block;
+    margin: 5px 30px;
+}
+
+div.menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #0b4455;
+}
+
+div.menu ul li a:hover {
+    color: #a3e1f3;
+}
+
+
+/*Контент сайта*/
+
+div.fon {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-top: none;
+    padding: 40px;
+}
+
+div.block {
+    width: 440px;
+}
+
+div.anons {
+    background: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+div.clear {
+    clear: both;
+}
